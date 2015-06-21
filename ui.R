@@ -1,5 +1,5 @@
 shinyUI(fluidPage(
-  titlePanel("Linear Regression Demo"),
+  titlePanel("Regression Demo"),
   
   sidebarLayout(
     sidebarPanel(
@@ -25,7 +25,6 @@ shinyUI(fluidPage(
   ),
   
   tabPanel("Document",
-           a("https://github.com/rainwood99/developdataproducts/www/document.html"),
            hr(),
            tags$iframe(src="document.html", 
                        width="100%", height=600, frameborder=0, 
