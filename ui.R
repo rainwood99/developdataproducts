@@ -12,7 +12,7 @@ shinyUI(fluidPage(
       
       textInput("inputA", label = h3("Input A (comma delimited numeric)"), 
                 value = "1, 2, 3"),
-      textInput("inputB", label = h3("Input B (comma delimited numeric"), 
+      textInput("inputB", label = h3("Input B (comma delimited numeric)"), 
                 value = "1.1, 2.2, 3.3"),
       submitButton("Submit")
 
